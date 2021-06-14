@@ -18,3 +18,13 @@
   margin-left: 10px;
   margin-bottom: 20px;
 }
+
+.nav-routes {
+  margin: 0;
+  font-size: 1.2em;
+  float: right;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
