@@ -12,6 +12,12 @@ const NavBar = () => {
         </NavLink>
       </div>
       <div className='nav-routes'>
+        <NavLink className="nav-about-us" to="/">
+          About Us
+        </NavLink>
+        <NavLink className="nav-hydra-platform" to="/">
+          Hydra Platform
+        </NavLink>
       </div>
     </div>
   )
