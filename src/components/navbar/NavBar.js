@@ -18,6 +18,15 @@ const NavBar = () => {
         <NavLink className="nav-hydra-platform" to="/">
           Hydra Platform
         </NavLink>
+        <NavLink className="nav-client-stories" to="/">
+          Client Stories
+        </NavLink>
+        <NavLink className="nav-showcase" to="/">
+          Client Stories
+        </NavLink>
+        <NavLink className="nav-news" to="/">
+          News
+        </NavLink>
       </div>
     </div>
   )
