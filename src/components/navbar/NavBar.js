@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import navLogo from '../../assets/AdaptiveLogo.png';
+import '../../styling/navbar.css'
 
 const NavBar = () => {
 
@@ -22,7 +23,7 @@ const NavBar = () => {
           Client Stories
         </NavLink>
         <NavLink className="nav-showcase" to="/">
-          Client Stories
+          Showcase
         </NavLink>
         <NavLink className="nav-news" to="/">
           News
