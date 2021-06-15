@@ -33,6 +33,11 @@ const Main = () => {
              the ability to capitalize on market opportunities
              to stay a step ahead of your competition.</p>
         </div>
+        <div className='origin-feature-yc'>
+          <h1>Your Control</h1>
+          <p>Retain full ownership of your business value for the
+             long-term and control how your solution evolves.</p>
+        </div>
       </div>
     </div>
   )
