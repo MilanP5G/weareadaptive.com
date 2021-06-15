@@ -75,6 +75,8 @@ body {
   bottom: 150px;
   border-radius: 20px;
   float: left;
+  box-shadow: 10px 10px 20px #234c7a,
+              -10px -10px 20px #3676bd;
 }
 
 .origin-box .origin-features .origin-feature-cs h1 {
@@ -100,6 +102,8 @@ body {
   bottom: 150px;
   border-radius: 20px;
   float: left;
+  box-shadow: 10px 10px 20px #234c7a,
+              -10px -10px 20px #3676bd;
 }
 
 .origin-box .origin-features .origin-feature-da h1 {
