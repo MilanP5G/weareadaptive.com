@@ -3,6 +3,11 @@
   width: 100%;
 }
 
+.origin-box .origin-text {
+  flex-direction: column;
+  float: left;
+}
+
 .origin-box .origin-text h1 {
   font-size: 4.2em;
   background: linear-gradient(to right, #28588d , #5f82fa);
@@ -12,7 +17,7 @@
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   width: 550px;
-  margin-top: 250px;
+  margin-top: 150px;
   margin-left: 100px;
 }
 
@@ -22,4 +27,12 @@
   font-weight: 300;
   width: 550px;
   margin-left: 100px;
+}
+
+.origin-box .origin-image {
+  float: left;
+  width: 50px;
+  margin-top: 150px;
+  /* margin-left: 100px; */
+  transition: transform 0.5s;
 }
