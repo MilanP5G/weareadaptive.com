@@ -80,7 +80,7 @@ body {
 }
 
 .origin-box .origin-features .origin-feature-cs h1 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: #28588d;
   letter-spacing: 0.8px;
 }
@@ -107,7 +107,7 @@ body {
 }
 
 .origin-box .origin-features .origin-feature-da h1 {
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: #28588d;
   letter-spacing: 0.8px;
 }
@@ -130,4 +130,17 @@ body {
   float: left;
   box-shadow: 10px 10px 20px #234c7a,
               -10px -10px 20px #5891cf;
+}
+
+.origin-box .origin-features .origin-feature-yc h1 {
+  font-size: 1.8em;
+  color: #28588d;
+  letter-spacing: 0.8px;
+}
+
+.origin-box .origin-features .origin-feature-yc p {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #28588d;
+  letter-spacing: 0.5px;
 }
