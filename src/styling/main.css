@@ -48,3 +48,13 @@
   width: 800px;
   bottom: 600px;
 }
+
+.origin-features {
+  align-items: center;
+  margin: 50px;
+  height: 500px;
+  margin-top: 800px;
+  padding: 80px;
+  background: linear-gradient(to right, #28588d , #5f82fa);
+  border-radius: 20px;
+}

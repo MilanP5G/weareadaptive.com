@@ -18,7 +18,16 @@ const Main = () => {
         <img className='function-solution' src={gifSolution} alt='Solution pathway' />
         <img className='static-solution' src={staticSolution} alt='Solution pathway' />
       </div>
-
+      <br>
+      </br>
+      <div className='origin-features'>
+        <div className='origin-feature-cs'>
+          <h1>Custom Solutions</h1>
+          <p>Get what you need, without compromise.
+             Our approach enables you to create real business
+             value that is tailored for your business.</p>
+        </div>
+      </div>
     </div>
   )
 
