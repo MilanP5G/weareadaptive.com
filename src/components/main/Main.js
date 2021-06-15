@@ -27,6 +27,12 @@ const Main = () => {
              Our approach enables you to create real business
              value that is tailored for your business.</p>
         </div>
+        <div className='origin-feature-da'>
+          <h1>Delivery Accelerators</h1>
+          <p>Reduce your time-to-market and create
+             the ability to capitalize on market opportunities
+             to stay a step ahead of your competition.</p>
+        </div>
       </div>
     </div>
   )
