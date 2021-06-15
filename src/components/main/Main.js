@@ -1,5 +1,6 @@
 import React from 'react';
 import gifSolution from '../../assets/FunctionSolution.gif'
+import staticSolution from '../../assets/StaticSolution.png'
 import '../../styling/main.css';
 
 const Main = () => {
@@ -14,7 +15,8 @@ const Main = () => {
            creating long-term competitive advantage for you.</p>
       </div>
       <div className='origin-image'>
-        <img src={gifSolution} alt='Solution pathway' />
+        <img className='function-solution' src={gifSolution} alt='Solution pathway' />
+        <img className='static-solution' src={staticSolution} alt='Solution pathway' />
       </div>
 
     </div>
