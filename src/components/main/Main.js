@@ -1,6 +1,7 @@
 import React from 'react';
 import gifSolution from '../../assets/FunctionSolution.gif'
 import staticSolution from '../../assets/StaticSolution.png'
+import jigSaw from '../../assets/jigsaw.png'
 import '../../styling/main.css';
 
 const Main = () => {
@@ -22,6 +23,7 @@ const Main = () => {
       </br>
       <div className='origin-features'>
         <div className='origin-feature-cs'>
+          <img src={jigSaw} alt='solutions jigsaw' />
           <h1>Custom Solutions</h1>
           <p>Get what you need, without compromise.
              Our approach enables you to create real business
