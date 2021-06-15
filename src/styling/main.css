@@ -83,3 +83,15 @@
   color: #28588d;
   letter-spacing: 0.5px;
 }
+
+.origin-box .origin-features .origin-feature-da {
+  background: #ffffff;
+  position: relative;
+  width: 320px;
+  height: 180px;
+  padding: 50px;
+  margin-right: 30px;
+  bottom: 150px;
+  border-radius: 20px;
+  float: left;
+}
