@@ -95,3 +95,16 @@
   border-radius: 20px;
   float: left;
 }
+
+.origin-box .origin-features .origin-feature-da h1 {
+  font-size: 1.5em;
+  color: #28588d;
+  letter-spacing: 0.8px;
+}
+
+.origin-box .origin-features .origin-feature-da p {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #28588d;
+  letter-spacing: 0.5px;
+}
