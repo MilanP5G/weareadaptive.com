@@ -2,6 +2,7 @@ import React from 'react';
 import gifSolution from '../../assets/FunctionSolution.gif'
 import staticSolution from '../../assets/StaticSolution.png'
 import jigSaw from '../../assets/jigsaw.png'
+import timeRecord from '../../assets/time-record.png'
 import '../../styling/main.css';
 
 const Main = () => {
@@ -23,13 +24,14 @@ const Main = () => {
       </br>
       <div className='origin-features'>
         <div className='origin-feature-cs'>
-          <img src={jigSaw} alt='solutions jigsaw' />
+          <img src={jigSaw} alt='Custom Solutions' />
           <h1>Custom Solutions</h1>
           <p>Get what you need, without compromise.
              Our approach enables you to create real business
              value that is tailored for your business.</p>
         </div>
         <div className='origin-feature-da'>
+          <img src={timeRecord} alt='Delivery Accelerators' />
           <h1>Delivery Accelerators</h1>
           <p>Reduce your time-to-market and create
              the ability to capitalize on market opportunities
