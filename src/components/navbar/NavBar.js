@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { debounce } from '../../utilities/helpers';
 import navLogo from '../../assets/AdaptiveLogo.png';
 import '../../styling/navbar.css';
 
 const NavBar = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisibile] = useState(0);
 
   return (
     <div className='nav-bar'>
