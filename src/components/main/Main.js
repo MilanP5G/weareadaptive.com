@@ -3,6 +3,7 @@ import gifSolution from '../../assets/FunctionSolution.gif'
 import staticSolution from '../../assets/StaticSolution.png'
 import jigSaw from '../../assets/jigsaw.png'
 import timeRecord from '../../assets/time-record.png'
+import browserControl from '../../assets/browser.png'
 import '../../styling/main.css';
 
 const Main = () => {
@@ -38,6 +39,7 @@ const Main = () => {
              to stay a step ahead of your competition.</p>
         </div>
         <div className='origin-feature-yc'>
+          <img src={browserControl} alt='Your Control' />
           <h1>Your Control</h1>
           <p>Retain full ownership of your business value for the
              long-term and control how your solution evolves.</p>
