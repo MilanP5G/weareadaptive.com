@@ -158,3 +158,10 @@ body {
   color: #28588d;
   letter-spacing: 0.5px;
 }
+
+.origin-box .origin-features .origin-feature-yc img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+}
