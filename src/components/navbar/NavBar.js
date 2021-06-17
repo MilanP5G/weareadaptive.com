@@ -9,8 +9,14 @@ const NavBar = () => {
   const [visible, setVisibile] = useState(0);
 
   const navbarStyles = {
-    transition: 'top 0.6s';
+    transition: 'top 0.6s'
   }
+
+  const handleScroll = debounce(() => {
+    const currentScrollPos = window.pageYOffset;
+    setVisibile((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos< 10);
+    setPrevScrollPos(currentScrollPos);
+  }, 100)
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
