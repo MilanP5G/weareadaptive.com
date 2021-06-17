@@ -188,6 +188,7 @@ body {
   font-size: 1.8em;
   color: #28588d;
   letter-spacing: 0.8px;
+  text-decoration: underline;
 }
 
 .origin-box .origin-products .origin-products-igs p {
@@ -210,6 +211,7 @@ body {
   font-size: 1.8em;
   color: #28588d;
   letter-spacing: 0.8px;
+  text-decoration: underline;
 }
 
 .origin-box .origin-products .origin-products-mpp p {
@@ -232,6 +234,7 @@ body {
   font-size: 1.8em;
   color: #28588d;
   letter-spacing: 0.8px;
+  text-decoration: underline;
 }
 
 .origin-box .origin-products .origin-products-aac p {
