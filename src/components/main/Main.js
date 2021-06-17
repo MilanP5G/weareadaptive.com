@@ -32,21 +32,21 @@ const Main = () => {
       </br>
       <div className='origin-features'>
         <div className='origin-feature-cs'>
-          <img src={jigSaw} alt='Custom Solutions' />
+          <img data-aos='fade-right' src={jigSaw} alt='Custom Solutions' />
           <h1>Custom Solutions</h1>
           <p>Get what you need, without compromise.
              Our approach enables you to create real business
              value that is tailored for your business.</p>
         </div>
         <div className='origin-feature-da'>
-          <img src={timeRecord} alt='Delivery Accelerators' />
+          <img data-aos='fade-down' src={timeRecord} alt='Delivery Accelerators' />
           <h1>Delivery Accelerators</h1>
           <p>Reduce your time-to-market and create
              the ability to capitalize on market opportunities
              to stay a step ahead of your competition.</p>
         </div>
         <div className='origin-feature-yc'>
-          <img src={browserControl} alt='Your Control' />
+          <img data-aos='fade-left' src={browserControl} alt='Your Control' />
           <h1>Your Control</h1>
           <p>Retain full ownership of your business value for the
              long-term and control how your solution evolves.</p>
