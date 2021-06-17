@@ -87,6 +87,7 @@ body {
 }
 
 .origin-box .origin-features .origin-feature-cs h1 {
+  margin-top: 50px;
   font-size: 1.8em;
   color: #28588d;
   letter-spacing: 0.8px;
@@ -121,6 +122,7 @@ body {
 }
 
 .origin-box .origin-features .origin-feature-da h1 {
+  margin-top: 50px;
   font-size: 1.8em;
   color: #28588d;
   letter-spacing: 0.8px;
@@ -147,6 +149,7 @@ body {
 }
 
 .origin-box .origin-features .origin-feature-yc h1 {
+  margin-top: 50px;
   font-size: 1.8em;
   color: #28588d;
   letter-spacing: 0.8px;
