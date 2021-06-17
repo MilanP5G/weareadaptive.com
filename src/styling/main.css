@@ -198,3 +198,25 @@ body {
   color: #28588d;
   letter-spacing: 0.5px;
 }
+
+.origin-box .origin-products .origin-products-mpp {
+  position: relative;
+  left: 400px;
+  bottom: 100px;
+}
+
+.origin-box .origin-products .origin-products-mpp h1 {
+  margin-top: 50px;
+  font-size: 1.8em;
+  color: #28588d;
+  letter-spacing: 0.8px;
+}
+
+.origin-box .origin-products .origin-products-mpp p {
+  position: relative;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #28588d;
+  letter-spacing: 0.5px;
+}
