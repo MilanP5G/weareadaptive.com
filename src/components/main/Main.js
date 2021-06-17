@@ -4,6 +4,7 @@ import staticSolution from '../../assets/StaticSolution.png'
 import jigSaw from '../../assets/jigsaw.png'
 import timeRecord from '../../assets/time-record.png'
 import browserControl from '../../assets/browser.png'
+import codeFactory from '../../assets/CodeFactory.png'
 import '../../styling/main.css';
 
 const Main = () => {
@@ -44,6 +45,9 @@ const Main = () => {
           <p>Retain full ownership of your business value for the
              long-term and control how your solution evolves.</p>
         </div>
+      </div>
+      <div className='origin-products'>
+        <img className='code-factory' src={codeFactory} alt='Products' />
       </div>
     </div>
   )
