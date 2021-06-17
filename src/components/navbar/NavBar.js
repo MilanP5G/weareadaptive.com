@@ -8,6 +8,10 @@ const NavBar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisibile] = useState(0);
 
+  const navbarStyles = {
+    transition: 'top 0.6s'
+  }
+
   return (
     <div className='nav-bar'>
       <div className='nav-logo'>
