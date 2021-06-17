@@ -18,7 +18,7 @@ const NavBar = () => {
   }, [prevScrollPos, visible, handleScroll]);
 
   return (
-    <div className='nav-bar'>
+    <div className='nav-bar' style={{ ...navbarStyles, top: visible ? '0' : '-100px' }}>
       <div className='nav-logo'>
         <NavLink className='nav-adaptive-logo' to='/'>
           <img id='nav-logo' alt='Adaptive Financial Consulting' src={navLogo} />
