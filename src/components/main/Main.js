@@ -55,6 +55,13 @@ const Main = () => {
           <p>Front office trading tools & infrastructure</p>
           <p>Exchanges</p>
         </div>
+        <div class='origin-products-mpp'>
+          <h1>Market Participant Perspective</h1>
+          <p>Sell-side & Buy-side</p>
+          <p>Brokers</p>
+          <p>Market venues</p>
+          <p>Fintechs new and mature</p>
+        </div>
       </div>
     </div>
   )
