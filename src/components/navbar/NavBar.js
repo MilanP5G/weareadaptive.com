@@ -9,8 +9,13 @@ const NavBar = () => {
   const [visible, setVisibile] = useState(0);
 
   const navbarStyles = {
-    transition: 'top 0.6s'
+    transition: 'top 0.6s';
   }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [prevScrollPos, visible, handleScroll]);
 
   return (
     <div className='nav-bar'>
