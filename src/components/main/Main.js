@@ -62,6 +62,14 @@ const Main = () => {
           <p>Market venues</p>
           <p>Fintechs new and mature</p>
         </div>
+        <div class='origin-products-aac'>
+          <h1>Across Asset Classes</h1>
+          <p>Fixed Income</p>
+          <p>FX</p>
+          <p>Equities</p>
+          <p>Commodities</p>
+          <p>Cryptocurrency</p>
+        </div>
       </div>
     </div>
   )
