@@ -1,13 +1,19 @@
-import React from 'react';
-import gifSolution from '../../assets/FunctionSolution.gif'
-import staticSolution from '../../assets/StaticSolution.png'
-import jigSaw from '../../assets/jigsaw.png'
-import timeRecord from '../../assets/time-record.png'
-import browserControl from '../../assets/browser.png'
-import codeFactory from '../../assets/CodeFactory.png'
+import React, { useEffect } from 'react';
+import Aos from "aos";
+import gifSolution from '../../assets/FunctionSolution.gif';
+import staticSolution from '../../assets/StaticSolution.png';
+import jigSaw from '../../assets/jigsaw.png';
+import timeRecord from '../../assets/time-record.png';
+import browserControl from '../../assets/browser.png';
+import codeFactory from '../../assets/CodeFactory.png';
 import '../../styling/main.css';
+import "aos/dist/aos.css";
 
 const Main = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2000})
+  }, [])
 
   return (
     <div className='origin-box'>
@@ -48,21 +54,21 @@ const Main = () => {
       </div>
       <div className='origin-products'>
         <img className='code-factory' src={codeFactory} alt='Products' />
-        <div class='origin-products-igs'>
+        <div data-aos='fade-up' class='origin-products-igs'>
           <h1>Institutional Grade Solutions</h1>
           <p>Regulated execution venues</p>
           <p>Next-generation dealer platforms</p>
           <p>Front office trading tools & infrastructure</p>
           <p>Exchanges</p>
         </div>
-        <div class='origin-products-mpp'>
+        <div data-aos='fade-up' class='origin-products-mpp'>
           <h1>Market Participant Perspective</h1>
           <p>Sell-side & Buy-side</p>
           <p>Brokers</p>
           <p>Market venues</p>
           <p>Fintechs new and mature</p>
         </div>
-        <div class='origin-products-aac'>
+        <div data-aos='fade-up' class='origin-products-aac'>
           <h1>Across Asset Classes</h1>
           <p>Fixed Income</p>
           <p>FX</p>
