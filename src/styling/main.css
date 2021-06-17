@@ -168,3 +168,11 @@ body {
   margin-left: auto;
   width: 200px;
 }
+
+.origin-box .origin-products .code-factory {
+  position: relative;
+  float: left;
+  width: 500px;
+  bottom: 100px;
+  left: 100px;
+}

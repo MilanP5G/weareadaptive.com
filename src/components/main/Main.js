@@ -48,6 +48,13 @@ const Main = () => {
       </div>
       <div className='origin-products'>
         <img className='code-factory' src={codeFactory} alt='Products' />
+        <div class='origin-products-igs'>
+          <h1>Institutional Grade Solutions</h1>
+          <p>Regulated execution venues</p>
+          <p>Next-generation dealer platforms</p>
+          <p>Front office trading tools & infrastructure</p>
+          <p>Exchanges</p>
+        </div>
       </div>
     </div>
   )
