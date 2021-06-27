@@ -78,7 +78,10 @@ const Main = () => {
         </div>
       </div>
       <div className='origin-solutions'>
-      
+        <div className='origin-solutions-ps'>
+          <h1>Platform Solutions</h1>
+          <p>Deliver your next-generation trading platform faster with Hydra Platform.</p>
+        </div>
       </div>
     </div>
   )
