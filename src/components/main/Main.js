@@ -77,6 +77,9 @@ const Main = () => {
           <p>Cryptocurrency</p>
         </div>
       </div>
+      <div className='origin-solutions'>
+      
+      </div>
     </div>
   )
 
